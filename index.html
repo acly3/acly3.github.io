@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Acly - Entrepeneur, Programmer">
+    <meta name="author" content="Acly (clysya)">
+    <meta name="theme-color" content="#b74b4b">
+    <meta property="og:title" content="Acly - Streamer & Programmer">
+    <meta property="og:description" content="Entrepeneur dan programmer">
+    <meta property="og:image" content="main.png">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" type="image/png" href="main.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Acly - Entrepeneur & Programmer</title>
+</head>
+
+<body>
+    <header>
+        <a href="#home" class="logo">Acly</a>
+
+        <nav id="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <!--<a href="#services">Services</a>-->
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+            <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme" title="Toggle theme">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+            <button id="menu-toggle" class="icon-btn menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="home-img reveal">
+                <img src="main.png" alt="Foto profil Acly">
+            </div>
+            <div class="home-content reveal">
+                <h1>Hi, It's <span>Acly</span></h1>
+                <h3 class="typing-text">I'm a <span class="typed-word" aria-live="polite"></span><span class="cursor">|</span></h3>
+                <p>Halo! Saya Acly, seseorang yang selalu tertarik untuk memahami bagaimana sesuatu bekerja. Dari programming,
+                  teknologi, hingga berbagai project yang saya eksplorasi, saya lebih suka belajar dengan mencoba secara langsung. 
+                  Saya percaya bahwa kemampuan dibangun dari rasa penasaran, keberanian untuk mencoba, dan kemauan untuk terus berkembang.</p>
+
+                <div class="social-icons">
+                    <!--<a href="https://github.com/clysya" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>-->
+                    <!--<a href="https://dsc.gg/mechacraft" target="_blank" rel="noopener" aria-label="Discord"><i class="fa-brands fa-discord"></i></a>-->
+                    <a href="https://www.tiktok.com/@zior_dix" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.instagram.com/zior_dix" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <!--<a href="https://saweria.co/Acly" target="_blank" rel="noopener" aria-label="Saweria"><i class="fas fa-donate"></i></a> -->
+                </div>
+
+                <div class="hero-cta">
+                    <!--<a href="https://saweria.co/Acly" target="_blank" rel="noopener" class="btn">Donate me</a> -->
+                    <a href="#contact" class="btn btn-ghost">Hubungi Saya</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <h2 class="section-title reveal">Tentang <span>Saya</span></h2>
+            <div class="about-content reveal">
+                <p>Saya adalah individu yang teliti, disiplin, dan memiliki kemampuan administrasi yang baik. 
+                  Berpengalaman dalam pengolahan data, data entry, validasi data, penyusunan laporan, serta mengoperasikan Microsoft Excel, 
+                  Microsoft Word, dan Google Spreadsheet.</p>
+                <p>Saya memiliki kemampuan komunikasi, presentasi, problem solving, serta mampu bekerja 
+                  sama dalam tim maupun secara mandiri. Saya terbiasa bekerja secara terstruktur, berorientasi 
+                  pada ketelitian dan efisiensi, serta cepat beradaptasi dengan sistem dan lingkungan kerja baru.</p>
+                <p>Saya memiliki semangat belajar yang tinggi dan selalu berkomitmen untuk memberikan hasil kerja 
+                  yang akurat, profesional, dan bernilai bagi perusahaan.</p>
+            </div>
+        </section>
+
+        <!--<section class="services" id="services">
+            <h2 class="section-title reveal">My <span>Services</span></h2>
+            <div class="services-grid">
+                <article class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3>Web Development</h3>
+                    <p>Bangun website responsif, cepat, dan modern. Mulai dari landing page sederhana
+                        sampai aplikasi web yang kompleks dengan teknologi terkini.</p>
+                </article>
+
+                <article class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-video"></i></div>
+                    <h3>Live Streaming</h3>
+                    <p>Konten streaming gaming dan coding interaktif. Belajar bareng, main bareng,
+                        sambil obrolan santai dengan komunitas yang asik.</p>
+                </article>
+
+                <article class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-film"></i></div>
+                    <h3>Content Creation</h3>
+                    <p>Tutorial coding, review game, tips & trik tech. Konten yang ngebantu dan
+                        menghibur, dirancang untuk creator dan developer pemula sampai mahir.</p>
+                </article>
+
+                <article class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                    <h3>Mobile App Development</h3>
+                    <p>Bangun aplikasi mobile cross-platform yang ringan dan responsif. Fokus ke
+                        UX yang intuitif dan performa optimal di Android maupun iOS.</p>
+                </article>
+
+                <article class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-paintbrush"></i></div>
+                    <h3>UI / UX Design</h3>
+                    <p>Desain antarmuka yang clean, modern, dan user-friendly. Mulai dari wireframe,
+                        prototype, sampai design system yang konsisten.</p>
+                </article>
+
+                <article class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-server"></i></div>
+                    <h3>Backend & API</h3>
+                    <p>Bikin REST API, integrasi database, dan arsitektur backend yang scalable.
+                        Pakai Node.js, Express, atau stack lain sesuai kebutuhan project.</p>
+                </article>
+
+                <article class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-server"></i></div>
+                    <h3>Server Engineer</h3>
+                    <p>Setup, deploy, dan maintain server Linux. Termasuk konfigurasi Nginx,
+                        Docker, monitoring, security hardening, dan otomasi deployment.</p>
+                </article>
+
+                <article class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-cube"></i></div>
+                    <h3>Game Server Development</h3>
+                    <p>Bangun server Minecraft (Paper / Spigot) dengan plugin custom Java, atau
+                        develop game di Roblox dengan Lua. Termasuk setup ekonomi, mini-game,
+                        dan sistem komunitas.</p>
+                </article>
+
+                <article class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-microchip"></i></div>
+                    <h3>IoT Engineering</h3>
+                    <p>Bikin proyek IoT pakai Arduino, Raspberry Pi, dan ESP32. Mulai dari smart
+                        home, sensor monitoring, sampai integrasi MQTT ke dashboard web.</p>
+                </article>
+
+                <article class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+                    <h3>Mentoring & Konsultasi</h3>
+                    <p>Sesi 1-on-1 untuk belajar coding, review project, atau konsultasi karir
+                        di dunia tech. Cocok buat pemula yang lagi cari arah.</p>-->
+                </article>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2 class="section-title reveal">My <span>Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-item reveal"><i class="fas fa-file-excel"></i><span>Excel</span></div>
+                <div class="skill-item reveal"><i class="fas fa-table"></i><span>SpreadSheet</span></div>
+                <div class="skill-item reveal"><i class="fas fa-file-word"></i><span>Microsoft Word</span></div>
+                <div class="skill-item reveal"><i class="fas fa-file-video"></i><span>Alight Motion</span></div>
+                <div class="skill-item reveal"><i class="fa-brands fa-react"></i><span>React</span></div>
+                <div class="skill-item reveal"><i class="fa-brands fa-vuejs"></i><span>Vue.js</span></div>
+                <div class="skill-item reveal"><i class="fa-brands fa-node-js"></i><span>Node.js</span></div>
+                <div class="skill-item reveal"><i class="fa-brands fa-php"></i><span>PHP</span></div>
+                <div class="skill-item reveal"><i class="fa-brands fa-python"></i><span>Python</span></div>
+                <div class="skill-item reveal"><i class="fa-brands fa-java"></i><span>Java</span></div>
+                <div class="skill-item reveal"><i class="fa-solid fa-moon"></i><span>Lua</span></div>
+                <div class="skill-item reveal"><i class="fa-solid fa-database"></i><span>MySQL</span></div>
+                <div class="skill-item reveal"><i class="fa-solid fa-leaf"></i><span>MongoDB</span></div>
+                <div class="skill-item reveal"><i class="fa-solid fa-bolt"></i><span>Redis</span></div>
+                <div class="skill-item reveal"><i class="fa-brands fa-sass"></i><span>Sass</span></div>
+                <div class="skill-item reveal"><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
+                <div class="skill-item reveal"><i class="fa-brands fa-github"></i><span>GitHub</span></div>
+                <div class="skill-item reveal"><i class="fa-brands fa-docker"></i><span>Docker</span></div>
+                <div class="skill-item reveal"><i class="fa-solid fa-server"></i><span>Nginx</span></div>
+                <div class="skill-item reveal"><i class="fa-brands fa-linux"></i><span>Linux</span></div>
+                <div class="skill-item reveal"><i class="fa-brands fa-aws"></i><span>AWS</span></div>
+                <div class="skill-item reveal"><i class="fa-solid fa-microchip"></i><span>Arduino</span></div>
+                <div class="skill-item reveal"><i class="fa-brands fa-raspberry-pi"></i><span>Raspberry Pi</span></div>
+                <div class="skill-item reveal"><i class="fa-solid fa-tower-broadcast"></i><span>MQTT</span></div>
+                <div class="skill-item reveal"><i class="fa-solid fa-cube"></i><span>Minecraft Plugin</span></div>
+                <div class="skill-item reveal"><i class="fa-solid fa-gamepad"></i><span>Roblox Studio</span></div>
+                <div class="skill-item reveal"><i class="fa-brands fa-figma"></i><span>Figma</span></div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="section-title reveal">Contact <span>Me</span></h2>
+            <div class="contact-wrapper">
+                <div class="contact-info reveal">
+                    <!--<div class="info-item">
+                        <i class="fa-brands fa-discord"></i>
+                        <div>
+                            <h4>Discord</h4>
+                            <a href="https://dsc.gg/mechacraft" target="_blank" rel="noopener">dsc.gg/mechacraft</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-brands fa-instagram"></i>
+                        <div>
+                            <h4>Instagram</h4>
+                            <a href="https://www.instagram.com/sgt_prstyo" target="_blank" rel="noopener">@sgt_prstyo</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-brands fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/clysya" target="_blank" rel="noopener">github.com/clysya</a>
+                        </div>
+                    </div>
+                </div>-->
+
+                <form class="contact-form reveal" id="contact-form" novalidate>
+                    <div class="form-row">
+                        <input type="text" name="name" placeholder="Nama" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <input type="text" name="subject" placeholder="Subjek" required>
+                    <textarea name="message" placeholder="Tulis pesan kamu di sini..." rows="6" required></textarea>
+                    <button type="submit" class="btn">Kirim Pesan</button>
+                    <p class="form-status" id="form-status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Acly. All rights reserved.</p>
+        <p class="footer-tagline">Crafted with <i class="fa-solid fa-heart"></i> by <a href="https://github.com/acly3" target="_blank" rel="noopener">clysya</a></p>
+    </footer>
+
+    <a href="#home" class="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
